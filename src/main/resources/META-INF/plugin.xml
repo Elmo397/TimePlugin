@@ -1,0 +1,12 @@
+<idea-plugin>
+    <id>org.test-task.TimePlugin</id>
+    <name>LocalTimePlugin</name>
+    <vendor email="m.elnara.397@gmail.com">Mamedova Elnara</vendor>
+
+    <depends>com.intellij.modules.platform</depends>
+
+    <extensions defaultExtensionNs="com.intellij">
+        <postStartupActivity implementation="plugin.widget.TimeStatusBar"/>
+    </extensions>
+
+</idea-plugin>
